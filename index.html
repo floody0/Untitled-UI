@@ -5,6 +5,7 @@
         <meta http-equiv="Content-type" content="text/html;charset-UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,14 +23,17 @@
                     <nav class="header__navigation">
                         <ul class="navigation__list">
                             <li class="nav-list__item"><a href="#" class="nav-item__link">Home</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-item__link">Products</a></li>
-                            <li class="nav-list__item"><a href="#" class="nav-item__link">Resources</a></li>
+                            <li class="nav-list__item"><a href="#" class="nav-item__link">Products <i class="ri-arrow-down-s-line"></i></a></li>
+                            <li class="nav-list__item"><a href="#" class="nav-item__link">Resources <i class="ri-arrow-down-s-line" href></i></a></li>
                             <li class="nav-list__item"><a href="#" class="nav-item__link">Pricing</a></li>
                         </ul>
                     </nav>
                     <div class="header__authorization">
                         <a href="#" class="authorization-logIn__link">Log in</a>
                         <a href="#" class="authorization-signUp__link">Sign up</a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
                     </div>
                 </div>
             </header>
@@ -651,7 +655,7 @@
                         <article class="feedback-section__feedback-form">
                             <form action="" class="feedback-section__form">
                                 <div class="form__mail">
-                                    <input type="mail" name="input__mail" class="form__input" placeholder="Enter your email" tabindex="1">
+                                    <input type="mail" name="input__mail" id="input__mail" class="form__input" placeholder="Enter your email" tabindex="1">
                                     <label for="input__mail" class="form__label">We care about your data in our <a href="#" class="label__link">privacy policy</a>.</label>
                                 </div>
                                 <button type="submit" class="form__button" tabindex="2">Subscribe</button>
